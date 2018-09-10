@@ -74,7 +74,7 @@ CREATE TABLE breaker_tie (
     Power       FLOAT(10,3) NOT NULL,
     Reg_time    TIMESTAMP
 );
-CREATE TABLE breaker_tie (
+CREATE TABLE breaker_aux (
     ID          int AUTO_INCREMENT PRIMARY KEY,
     Status      bit         NOT NULL,
     Voltage     FLOAT(10,3) NOT NULL,
